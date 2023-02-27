@@ -1,0 +1,23 @@
+{
+  "name": "FLIPKART",
+  "version": "1.0.0",
+  "description": "flipkart clone with html and css and javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishek-simform-v1/FLIPKART.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek-simform-v1/FLIPKART/issues"
+  },
+  "homepage": "https://github.com/abhishek-simform-v1/FLIPKART#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

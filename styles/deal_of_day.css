@@ -1,0 +1,105 @@
+/* view-btn */
+.view-btn{
+    background-color: #2874f0;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    }
+    /* slider */
+    .wrapper{
+      display: flex;
+      position: relative;
+    }
+    
+    .wrapper i{
+      top: 50%;
+      height: 60%;
+      width: 44px;
+      color: #343F4F;
+      cursor: pointer;
+      font-size: 1.15rem;
+      position: absolute;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      line-height: 44px;
+      background: rgb(204, 204, 204);
+      transform: translateY(-50%);
+      transition: transform 0.1s linear;
+    }
+    .wrapper i:active{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-50%) scale(0.9);
+    }
+    .wrapper i:hover{
+      background: #f2f2f2;
+    }
+    .wrapper i:first-child{
+      left: 0px;
+      display: none;
+    }
+    .wrapper i:last-child{
+      right: 0px;
+    }
+    .wrapper .carousel{
+      font-size: 0px;
+      cursor: pointer;
+      overflow: hidden;
+      white-space: nowrap;
+      scroll-behavior: smooth;
+    }
+    .carousel.dragging{
+      cursor: grab;
+      scroll-behavior: auto;
+    }
+    .carousel.dragging img{
+      pointer-events: none;
+    }
+    .carousel img{
+    max-height: 206px;
+    min-height: 206px;
+      object-fit: contain;
+      user-select: none;
+      margin-left: 14px;
+    }
+
+    .container-deal-of-day{
+        display: flex;
+        max-height: 350px;}
+      .ad-content{
+        height: 100%;
+      }
+      .deals-of-the-day-container{
+        overflow: hidden;
+      }
+      .deals-of-the-day-content{
+        height: 100%;
+      
+        display: flex;
+      }
+      
+      .deals-of-the-day{
+          height: 100%;
+          display: flex;
+      }
+      .ad-img{
+          display: flex;
+        
+          place-items: center;
+      }
+      .ad-img img {
+       max-width: 280px;
+      }
+      @media screen and (max-width: 682px) {
+        .ad-img{
+          display: none;
+        }
+      }
+      
+      .Deals-of-the-day-main-container-main{
+        display: flex;
+      gap: 0.5rem;
+      }

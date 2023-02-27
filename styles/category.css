@@ -1,0 +1,27 @@
+/* category-container */
+.category-container {
+    min-height: 60px;
+    gap: 2rem;
+    align-items: center;
+    height: 100%;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0 auto;
+  max-width: 1200px;
+    display: flex;
+  }
+  
+  /* category-content */
+  .category-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    gap: 0.5rem;
+    height: 100%;
+  }
+  .category {
+    width: 40px;
+    height: 40px;
+  }
+  

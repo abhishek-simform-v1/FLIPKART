@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto";
+    background-color: rgb(242, 242, 242);
+  }
+  a,
+p,
+h1,
+h2,
+h3,
+h4,
+span {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.main-container{
+    flex-direction: column;
+    max-width: 1650px;
+    margin: 0 auto;
+    gap: 1rem;
+    display: flex;
+}
+
+.container {
+  max-width: 100%;
+  padding: 20px 20px;
+  
+}
