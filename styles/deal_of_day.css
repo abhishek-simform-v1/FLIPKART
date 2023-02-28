@@ -64,8 +64,11 @@
       object-fit: contain;
       user-select: none;
       margin-left: 14px;
+      transition: all 0.3s;
     }
-
+    .carousel img:hover{
+      transform: scale(1.1);
+    }
     .container-deal-of-day{
         display: flex;
         max-height: 350px;}
@@ -97,9 +100,15 @@
         .ad-img{
           display: none;
         }
+        .title-timer-deals-of-the-day{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start !important;
+        }
       }
       
       .Deals-of-the-day-main-container-main{
         display: flex;
       gap: 0.5rem;
       }
+      

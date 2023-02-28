@@ -72,6 +72,35 @@ carousel.addEventListener("touchmove", dragging);
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
 
+// timer
+let timeInSecs;
+let ticker;
+
+function startTimer(secs) {
+  timeInSecs = parseInt(secs);
+  ticker = setInterval("tick()", 1000);
+}
+
+function tick() {
+  let secs = timeInSecs;
+  if (secs > 0) {
+    timeInSecs--;
+  } else {
+    clearInterval(ticker);
+    startTimer(60 * 60); // 5 minutes in seconds
+  }
+
+  let mins = Math.floor(secs / 60);
+  secs %= 60;
+
+  let result =
+    (mins < 10 ? "0" : "") + mins + ":" + (secs < 10 ? "0" : "") + secs;
+
+  document.getElementById("countdown").innerHTML = result;
+  document.getElementById("countdown2").innerHTML = (result);
+
+}
+startTimer(60 * 60); // 60 minutes in seconds
 
 // owl-slider
 $(document).ready(function(){
@@ -97,3 +126,4 @@ $(document).ready(function(){
         }
     }
 })
+ 
