@@ -1,3 +1,4 @@
+
 # Flipkart Clone with Html And css Readme file
 
 This repository contains the source code for a Flipkart clone created using HTML and CSS. The main goal of this project is to learn and understand the basics of web development.
@@ -38,3 +39,4 @@ Some future improvements that could be made to this project include:
 ## Conclusion
 
 Overall, this project was a great learning experience for understanding the fundamentals of web development using HTML and CSS. It allowed for the practice and application of web design principles in creating a visually appealing and responsive website. If you have any questions or feedback, please don't hesitate to reach out.
+

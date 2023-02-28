@@ -62,8 +62,13 @@
   min-height: 206px;
     object-fit: contain;
     user-select: none;
+      transition: all 0.3s;
     margin-left: 14px;
   }
+    .owl-carousel img:hover{
+      transform: scale(1.1);
+
+    }
   .owl-carousel img:first-child{
     margin-left: 0px;
   }
